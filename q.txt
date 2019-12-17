@@ -1,0 +1,4 @@
+Cdjango-adminreate a virtual environment named django-env in your machine. Activate that environment and install Django 2.2 within it. Also, create requirements.txt file by using the command pip freeze > requirements.txt . Now, create a Django project named time-machine . Create an app named time-teller, and create a separate urls.py file for it. Now, make your web application do the following:
+When the user hits Base URL (i.e. 127.0.0.1:8000/) on the address bar, she should see greetings message.
+When accessed with URL 127.0.0.1:8000/today, she should see today's date on webpage.
+When accessed with URL 127.0.0.1:8000/timestamp, she should see timestamp of the instance when the page was reloaded.
