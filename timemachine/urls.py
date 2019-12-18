@@ -19,6 +19,4 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('timeteller.urls')),
-    path('today/',include('timeteller.urls')),
-    path('timestamp/',include('timeteller.urls'))
 ]
